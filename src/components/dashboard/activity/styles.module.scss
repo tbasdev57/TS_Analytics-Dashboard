@@ -1,0 +1,22 @@
+.label {
+  fill: #20253a;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.tooltip {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0.7;
+  &Day {
+    color: var(--gray);
+    padding-bottom: 5px;
+    text-transform: capitalize;
+  }
+  &Calories {
+    color: #e60000;
+  }
+}

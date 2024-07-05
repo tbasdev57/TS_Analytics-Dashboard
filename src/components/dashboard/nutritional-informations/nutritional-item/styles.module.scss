@@ -1,0 +1,22 @@
+.nutritionalItem {
+  display: flex;
+  align-items: center;
+  > * + * {
+    margin: 0 20px;
+    strong {
+      font-size: 18px;
+    }
+    small {
+      color: var(--gray);
+      display: inline-block;
+      margin-top: 5px;
+    }
+  }
+  padding: 25px;
+  background-color: var(--lightgray);
+  border-radius: var(--border-radius);
+}
+
+.value {
+  color: #282d30;
+}

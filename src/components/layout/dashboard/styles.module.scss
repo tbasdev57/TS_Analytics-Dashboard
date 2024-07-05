@@ -1,0 +1,42 @@
+.dashboardLayout {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "activity activity activity nutritionalInformations"
+    "averageSessions performance score nutritionalInformations";
+  grid-template-rows: 100px 255px 200px;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 20px;
+  > * {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
+
+.header {
+  grid-area: header;
+}
+
+.activity {
+  grid-area: activity;
+  background-color: var(--lightgray);
+}
+
+.averageSessions {
+  grid-area: averageSessions;
+  background-color: var(--lightgray);
+}
+
+.performance {
+  grid-area: performance;
+  background-color: var(--lightgray);
+}
+
+.score {
+  grid-area: score;
+  background-color: var(--lightgray);
+}
+
+.nutritionalInformations {
+  grid-area: nutritionalInformations;
+}
