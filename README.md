@@ -1,6 +1,6 @@
-# Sportsee
+# Analytics-Dashboard 
 
-Project 12 - Develop an analytics dashboard using React.
+Project  Develop an analytics dashboard using React.
 
 ## 🚨 Prerequisites
 
@@ -20,8 +20,8 @@ But if you're looking for an alternative, [Visual Studio Code](https://code.visu
 ## 🏗️ Installation
 
 ```
-git clone https://github.com/alexandre-jung/Sportsee.git
-cd Sportsee/
+git clone https://github.com/tbasdev57/TS_Analytics-Dashboard.git
+cd TS_Analytics-Dashboard
 npm install
 ```
 
